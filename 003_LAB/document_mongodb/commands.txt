@@ -1,0 +1,2 @@
+mongoimport --username=root --password=example --authenticationDatabase=admin --collection=user --db=demo user.json
+mongoimport --username=root --password=example --authenticationDatabase=admin --collection=toDoList --db=demo toDoList.json
